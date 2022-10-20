@@ -95,6 +95,7 @@
         padding-left: 1em ;
         color: #707070;
         line-height: 23px;
+        background-color: #000000;
 
         /* DEBUG */
         height: 80px;
@@ -132,9 +133,21 @@
         height: 80px;
         position: absolute;
         top: 0;
-        left: 15vw;
+        left: 20vw;
         background-color: #000000;
         opacity: 0.5;
+        text-align: end;
+        
+    }
+
+    .upgrade span{
+        display: inline-block;
+        border: white 2px solid;
+        border-radius: 25px;
+        margin: 1.5rem;
+        color: white;
+        padding: 0.5rem;
+        
     }
 
 
@@ -171,6 +184,8 @@
  
 
     .player-container{
+        display: flex;
+        justify-content: space-between;
         width: 100vw;
         height: 80px;
         position:absolute;
@@ -179,3 +194,110 @@
         background-color: #282828;
   
     }
+
+    /* parte sinistra  */
+    .command{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        width: 15rem;
+        
+    }
+
+    .img-footer{
+        width: 3em;
+        margin: 15px;
+        
+    }
+
+    
+    .track{
+        display: flex;
+        
+     }
+
+     .track-name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     }
+
+   
+
+     .title{
+        color: #707070;
+        font-size: 0.7rem;
+     }
+
+     .icons{
+        display: flex;
+        justify-content: space-around;
+        
+        width: 4em;
+     }
+
+     /* parte centrale */
+     /* comandi */
+     .middle{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 1em;
+        width: 20rem;
+        
+     }
+
+     .middle-bottom .fa-solid{
+        margin-right: 2em;
+     }
+     /* barra riproduzione  */
+     .rod-player{
+        display: flex;
+        justify-content: start;
+        
+        width: 20em;
+        height: 0;
+        margin-top: 1.3em;
+     }
+
+     .rod-white{
+        border: 2px solid white;
+        border-top-right-radius: 5%;
+        border-bottom-right-radius:  5%;
+        width: 5em;
+     }
+
+     .rod-gray{
+        border: 2px solid #707070;
+        border-top-left-radius: 5%;
+        border-bottom-left-radius:  5%;
+        width: calc(100% - 5em);
+
+     }
+
+     .reproduce{
+        display: flex;
+     }
+
+     .time{
+        margin: 0.8em 1em 0;
+     }
+
+     .rod-player.small{
+        width: 10em;
+        margin-top: 0;
+     }
+     .sound{
+        display: flex;
+        
+     }
+
+     .rod-white.small{
+        width: 2em;
+     }
+
+     .rod-white.gray{
+        width: calc(100% - 2em);
+     }
