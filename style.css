@@ -7,28 +7,128 @@
 
 .structure-container{
     position: relative;
+ 
 }
 
  /* menu laterale */
 
  .menuSx-container{
-    width: 15vw;
+    width: 20vw;
     background-color: #000000;
-    height: 630px;
+    height: calc(100vh - 80px);
     position: absolute;
     top: 0;
-      
-
+    color:#707070;
+    padding-left: 1em;
     
-    /* DEBUG */
+      
+}
+
+/* menu laterale superiore */
+.menu-topSx{
+    
+    
+    margin-top: 1em;
+    
 }
     
+.list{
+    list-style-type: none;
+    line-height: 2em;
+}
+
+.white{
+    color: white;
+}
+
+.menu-topSx .type{
+    margin-right: 0.5em;
+}
+
 
 /* logo */
+
+    #logo{
+        width: 130px;
+        margin-top: 1em;
+    }
     
 
+/* playlists */
+
+    .playlist{
+        margin-top: 1em;
+        line-height: 2.5em;
+    }
+
+    .playlist h3{
+        color: white;
+    }
+
+    
+
+    .fa-plus{
+        background-color: #a3a3a3;
+        color: black;
+        width: 2em;
+        height: 2em;
+        padding: 8px;
+        margin-right: 1em;
+    }
+
+
+
+
+/* blocco tutente */
+
+    .app{
+        width: 10em;
+        border-bottom: 1px solid #707070;
+        padding-bottom : 0.9em;
+    }
+
+    .user{
+        width: 20vw;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding-left: 1em ;
+        color: #707070;
+        line-height: 23px;
+
+        /* DEBUG */
+        height: 80px;
+        
+
+    }
+
+    .user .type{
+        width: 20px;
+        height: 20px;
+        margin-right: 0.5em;
+        border: 2px solid #707070;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .fa-user{
+        width: 20px;
+        height: 20px;
+        margin-right: 0.5em;
+        background-color: #707070;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+
+    }
+    .user-name{
+        color: white;
+        padding-top: 0.7em;
+    }
+
+ /* barra superiore centrale */
     .upgrade{
-        width: 85vw;
+        width: 80vw;
         height: 80px;
         position: absolute;
         top: 0;
@@ -38,15 +138,15 @@
     }
 
 
-  /* corpo centrale */
+/* corpo centrale */
 
     .body-container{
         margin-left: 15vw;
-        overflow-y: scroll;
+        
 
 
         /* DEBUG */
-        height: 1000px;
+        height: calc(100vh - 80px);
         background-color: #141922;
         
     
